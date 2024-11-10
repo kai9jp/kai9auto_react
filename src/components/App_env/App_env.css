@@ -1,0 +1,64 @@
+.header-buttons {
+  position: absolute;
+  right: 10px;
+  top: 8px;
+}
+
+.btn-green {
+  background-color: rgb(51, 126, 57) !important;
+  border-color: cadetblue !important;
+  margin-right: 3px;
+  width: 40px;
+  opacity: 0.7;
+}
+
+.btn-blue {
+  background-color: rgb(27, 24, 214) !important;
+  border-color: lightblue !important;
+  margin-right: 3px;
+  width: 40px;
+  opacity: 0.7;
+}
+
+.btn-red {
+  background-color: rgb(214, 28, 28) !important;
+  border-color: indianred !important;
+  margin-right: 3px;
+  width: 40px;
+  opacity: 0.7;
+}
+
+.btn-black {
+  background-color: rgb(0, 0, 0) !important;
+  border-color: indianred !important;
+  margin-right: 3px;
+  width: 40px;
+  opacity: 0.7;
+}
+
+.table-row {
+  cursor: pointer;
+}
+
+.selected {
+  background-color:lavender;
+}
+.deleted {
+  background-color: #C0C0C0;
+}
+.selected.deleted {
+  background-color: #D1BFCF;
+}
+
+ .isDelDataShowHint {
+    position: absolute;
+    left: 76px;
+    top: 4px;
+}
+
+.delflg {
+  position: absolute;
+  left: 5px;
+  top: 39px;
+}
+

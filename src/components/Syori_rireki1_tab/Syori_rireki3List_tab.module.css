@@ -1,0 +1,107 @@
+.faIcon {
+  position: absolute;
+  top: 1px;
+}
+
+.faIconStop {
+  position: absolute;
+  top: 1px;
+  right: 10px;
+  color: red;
+}
+
+.smallButton {
+  height: 20px;
+  width: 60px;
+  position: relative;
+}
+
+.logText {
+  position: absolute;
+  top: 1px;
+  font-size: 10px;
+  vertical-align: left;
+  left: 10px;
+}
+
+.logStop {
+  position: absolute;
+  top: 1px;
+  font-size: 10px;
+  vertical-align: left;
+  left: 6px;
+}
+
+.table3Header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 100;
+}
+
+.table3Content {
+  overflow-y: auto;
+  max-height: 480px;
+}
+
+.tightRow {
+  line-height: 1;
+}
+
+.separatorRow {
+  background-color: rgb(194, 224, 235);
+}
+
+.separatorRow td {
+  border-left: none;
+  border-right: none;
+}
+
+/* 点滅アニメーション */
+@keyframes blink {
+  0%, /* 初期状態 (不透明度 1) */
+  100% { /* 終了状態 (不透明度 1) */
+    opacity: 1;
+  }
+  50% { /* 中間状態 (不透明度 0) */
+    opacity: 0;
+  }
+}
+
+/* 背景色変更アニメーション */
+@keyframes blink-color {
+  0%, /* 初期状態 (透明) */
+  100% { /* 終了状態 (透明) */
+    background-color: transparent;
+  }
+  50% { /* 中間状態 (ホワイト) */
+    background-color: rgb(255, 255, 255);
+  }
+}
+
+/* 点滅要素に適用するスタイル */
+.blink {
+  animation: blink 0.8s linear infinite, /* 点滅アニメーション */
+             blink-color 0.8s linear infinite; /* 背景色変更アニメーション */
+}
+
+/* 改行しないテーブル */
+.tableNoWrap{
+  width: 100%;
+  table-layout: auto; /* テーブル幅を自動調整する */
+}
+/* 改行しないテーブル */
+.tableNoWrap th, .tableNoWrap td {
+  white-space: nowrap; /* 長いテキストが折り返されないようにする */
+}
+
+/* テーブルの選択行 */
+.selected {
+  background-color:lavender;/* 色をラベンダにする */
+}
+.deleted {
+  background-color: #C0C0C0;
+}
+.selected.deleted {
+  background-color: #D1BFCF;
+}

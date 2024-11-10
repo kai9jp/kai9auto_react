@@ -1,0 +1,38 @@
+.headerButtons {
+  position: absolute;
+  right: 0px;
+  top: 3px;
+}
+
+.btnGreen_keyword {
+  background-color: rgb(51, 126, 57) ;
+  border-color: cadetblue ;
+  margin-right: 3px;
+  opacity: 0.4;
+}
+
+.btnGreen_keyword:hover {
+  background-color:  rgb(57, 199, 69) ;
+}
+
+.btnBlue_keyword {
+  background-color: rgb(27, 24, 214) ;
+  border-color: lightblue ;
+  margin-right: 3px;
+  opacity: 0.4;
+}
+
+.btnBlue_keyword:hover {
+  background-color: rgb(68, 65, 226);
+}
+
+.btnBlack_keyword {
+  background-color: rgb(0, 0, 0) ;
+  border-color: indianred ;
+  margin-right: 3px;
+  opacity: 0.4;
+}
+
+.btnBlack_keyword:hover {
+  background-color: rgb(99, 94, 94);
+}

@@ -1,0 +1,201 @@
+/* モーダル全体 */
+.ReactModal__Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  max-width: 100% ;
+  width: 100vw ;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8) !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+/* モーダルコンテンツ */
+.ReactModal__Content {
+  position: relative;
+  top: auto;
+  left: auto;
+  width: 80vw ;
+  max-width: 100%;
+  max-height: 80vh;
+  background-color: white;
+  border: 5px solid #ccc;
+  border-radius: 20px;
+  overflow: hidden;
+  overflow-y: hidden; 
+  outline: none;
+}
+
+.container {
+    background-color: #f9f9f9;
+    padding: 0px;
+    margin: 0px;
+    width: 100%; 
+    height: 100%; 
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between; /* 子要素を左右に配置 */
+    align-items: center; /* 子要素を上下中央に配置 */
+    border-bottom: 1px solid #ccc; /* 下に線を追加 */
+    padding-bottom: 20px; /* 線とコンテンツにスペースを追加 */    
+    background-color: #0e1e24;
+    padding: 0 20px; /* 左右の余白を追加 */
+    width: 100%; /* ヘッダーを横いっぱいに広げる */
+    box-sizing: border-box; /* paddingを含めて幅を計算 */
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;    
+  }
+
+  .titles {
+    display: flex;
+    flex-direction: column; /* 縦方向に配置 */
+    align-items: flex-start; /* 必要に応じて左寄せ */
+    gap: 10px; /* 各要素の間にスペースを追加したい場合 */
+  }
+
+  .title {
+    font-size: 1.5rem;
+    color: #d4cdcd;
+  }
+
+  .scheduleLabelBox {
+    font-size: 1.0rem;
+    color: #d4cdcd;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: flex-end; /* ボタンを右端に配置 */
+    gap: 10px; /* ボタン間にスペースを作成 */
+    margin-top: 10px; /* 上部に余白を追加 */
+    margin-bottom: 10px; /* 下部に余白を追加 */
+  }
+
+  .body {
+    padding: 10px; /* 上下左右に10pxの余白 */
+    background-color: #f9f9f9; /* 背景色を指定 */
+    border-radius: 8px; /* 角を丸くする */
+  }  
+  
+  .formGroup {
+    margin-bottom: 15px;
+  }
+  
+  .label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 8px;
+    color: #555;
+  }
+  
+  .input {
+    width: 50px;
+    margin-right: 5px;
+    text-align: center;
+  }
+  
+  
+  .inputRecurringInterval {
+    width: 70px;
+    margin-right: 5px;
+    text-align: left;
+  }
+
+  .radioGroup {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .radioLabel {
+    display: flex;
+    align-items: center;
+  }
+  
+  .radioInput {
+    margin-right: 5px;
+  }
+  
+  .weekdayCheckbox {
+    display: flex;
+    align-items: center;
+  }
+  
+  .checkbox {
+    margin-right: 5px;
+  }
+  
+  .timeInputGroup {
+    display: flex;
+    align-items: center;
+  }
+  
+
+  .previewCard {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #02a69b;
+    border-radius: 12px;
+    text-align: left;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .previewTitle {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: #f3ecec;
+  }
+  
+  .previewItem {
+    font-size: 1.1rem;
+    color: #eeecec;
+    margin-bottom: 8px;
+  }
+  
+  strong {
+    color: #ceec7a;
+    font-weight: bold;
+  }
+  
+  .recurringTimeContainer {
+    display: flex;
+    justify-content: flex-start;
+    gap: 50px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-left: 10px;
+    width: 80%;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+    background-color: #f9f9f9;
+    margin-top: 10px; /* 上コンポとの間に余白を追加 */
+    margin-bottom: 10px; /* 下コンポとの間に余白を追加 */
+  }
+  
+  .RecurringIntervalContainer, .RecurringEndTimeContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .checkBoxContainer {
+    display: flex;
+    gap: 5px;
+  }
+
+  /* 曜日や第N週のチェックボックスを横並びに */
+  .checkboxContainerHorizontal {
+    display: flex !important;
+    gap: 5px;
+  }
+
+  .timeInputGroup {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  

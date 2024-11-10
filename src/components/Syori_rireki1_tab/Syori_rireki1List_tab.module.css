@@ -1,0 +1,64 @@
+.tightRow {
+  line-height: 1;
+}
+
+/* 改行しないテーブル */
+.tableNoWrap{
+  width: 100%;
+  table-layout: auto; /* テーブル幅を自動調整する */
+}
+/* 改行しないテーブル */
+.tableNoWrap th, .tableNoWrap td {
+  white-space: nowrap; /* 長いテキストが折り返されないようにする */
+}
+
+/* テーブルの選択行 */
+.selected {
+  background-color:lavender;/* 色をラベンダにする */
+}
+.deleted {
+  background-color: #C0C0C0;
+}
+.selected.deleted {
+  background-color: #D1BFCF;
+}
+
+.smallButton {
+  height: 20px;
+  width: 60px;
+  position: relative;
+}
+
+.faIconStop {
+  position: absolute;
+  top: 1px;
+  right: 10px;
+  color: red;
+}
+
+.logStop {
+  position: absolute;
+  top: 1px;
+  font-size: 10px;
+  vertical-align: left;
+  left: 6px;
+}
+
+.smallButton {
+  height: 20px;
+  width: 60px;
+  position: relative;
+}
+
+.faIcon {
+  position: absolute;
+  top: 1px;
+}
+
+.logText {
+  position: absolute;
+  top: 1px;
+  font-size: 10px;
+  vertical-align: left;
+  left: 10px;
+}

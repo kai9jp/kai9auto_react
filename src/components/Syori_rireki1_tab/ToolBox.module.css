@@ -1,0 +1,100 @@
+/* ToolBox.module.css */
+.toolbox {
+    width: 670px;
+    position: fixed;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    z-index: 1000;
+    padding-left: 40px;
+  }
+  
+  .content {
+    padding: 4px;
+    padding-bottom: 4; 
+  }
+  
+  .dragHandle {
+    width: 40px;
+    position: absolute;
+    left: 0px;
+    top: 0;
+    bottom: 0;
+    cursor: move;
+    background: rgb(13, 52, 55);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-left: 6px;
+    padding-top: 6px;
+    line-height: 1;
+    color: white;
+  }
+  
+
+/* NumberInput コンポーネントのスタイル */
+.numberInput_label {
+    margin-top: 6px;
+    margin-right: 10px;
+  }
+  .numberInput {
+    width: 50px;/* 親要素の幅に合わせる */
+    margin-right: 10px;
+  }
+  
+  /* モジュールCSSの追加スタイル */
+  .text-left {
+    text-align: left;
+    padding-left: 10px; /* 右の余白を確保 */
+  }
+
+  .Toolbtn {
+    background-color: rgb(13, 52, 55);
+    margin-right: 3px!important;
+    white-space: nowrap;
+  }
+  
+  .label {
+    font-size: 0.8rem;
+    margin-top: 0.6rem;
+    margin-right: 0.3rem;
+    color: #333;
+  }
+
+  .inputText,
+  .outputText {
+    width: 60px;
+    height: 30px;
+    margin-right: 0.6rem;
+    font-size: 1rem;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+
+/* セパレータ */
+.separator {
+    width: 1px;
+    height: 30px; 
+    background-color: #ccc; /* セパレータの色 */
+    margin-left: -2px; /* 右余白 */
+    margin-right: 8px; /* 右余白 */
+  }
+
+  .separator2 {
+    width: 1px;
+    height: 30px; 
+    background-color: #ccc; /* セパレータの色 */
+    margin-left: 6px; /* 右余白 */
+    margin-right: 0px; /* 右余白 */
+  }
+
+  .checkbox_container {
+    margin-top: 6px; 
+    margin-left: 30px; 
+  }
+  
+  .checkbox_label {
+    width: 120px;
+  }

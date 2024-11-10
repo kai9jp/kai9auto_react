@@ -1,0 +1,55 @@
+/* TabStyles.module.css */
+.tabContainer {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.08), 0 4px 4px rgba(0, 0, 0, 0.08),
+    0 8px 8px rgba(0, 0, 0, 0.08), 0 16px 16px rgba(0, 0, 0, 0.08);
+  padding: 1rem;
+}
+
+.tabList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  border-bottom: 2px solid #e7e7e7; /* タブの下の境界線を変更 */
+  height: 40px;
+}
+
+.tabList li {
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-right: 5px; /* タブ間の隙間を調整 */
+  border: 1px solid #ccc;
+  border-bottom: none;
+  background-color: #f9f9f9; /* 非アクティブなタブの背景色をより暗めに設定 */
+  color: #333; /* テキスト色を濃いめに */
+  border-radius: 4px 4px 0 0;
+  transition: background-color 0.3s ease; /* アニメーション効果を追加 */
+
+}
+
+.tabList li.active {
+  background-color: #2c3238; /* アクティブなタブの背景色を明るく */
+  color: white; /* アクティブなタブのテキスト色を白に */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* アクティブなタブの影をより強調 */
+  border-bottom: 3px solid #2e68b1; /* アクティブなタブの下に暗い色のボーダーを追加 */
+  font-weight: bold; /* テキストを太字に */
+  position: relative; /* z-index を効かせるため */
+  z-index: 10; /* アクティブなタブを他のタブより上に */
+}
+
+.tabList li:hover {
+  background-color: #dfecf8; /* ホバー時の背景色を設定 */
+  color: #333; /* テキスト色を濃いめに */
+}
+
+.tabContent {
+  border: 1px solid #ccc;
+  border-top: none;
+  padding: 10px;
+  border-radius: 0 0 8px 8px;
+  background-color: white;
+  height: calc(100vh - 4.375rem - 40px - 30px);/* 4.735remはトップバーの高さ、80pxはタブの高さ、30pxは縦スクロールバーが出ないであろう高さ */
+  overflow: auto /* 必要に応じてスクロールバーを表示 */
+}

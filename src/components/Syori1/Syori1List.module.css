@@ -1,0 +1,18 @@
+.tableResponsive th,
+.tableResponsive td{
+	white-space: nowrap !important;
+}
+
+.tableRow {
+  cursor: pointer;
+}
+
+.selected {
+  background-color:lavender;
+}
+.deleted {
+  background-color: #C0C0C0;
+}
+.selected.deleted {
+  background-color: #D1BFCF;
+}

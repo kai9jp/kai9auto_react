@@ -1,0 +1,16 @@
+.portlet400 {
+  max-height: 400px;
+}
+
+.table-responsive th,
+.table-responsive td{
+	white-space: nowrap;
+}
+
+.history_position {
+  position: absolute;
+  left: 110px;
+  top: 14px;
+  opacity: 0.7;
+}
+

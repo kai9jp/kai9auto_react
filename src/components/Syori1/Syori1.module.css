@@ -1,0 +1,40 @@
+.headerButtons {
+  position: absolute;
+  right: 10px;
+  top: 8px;
+  }
+  
+  .btnGreenSyori1 {
+  background-color: rgb(51, 126, 57) ;
+  border-color: cadetblue ;
+  margin-right: 3px;
+  opacity: 0.6;
+  }
+  
+  .btnBlueSyori1 {
+  background-color: rgb(27, 24, 214) ;
+  border-color: lightblue ;
+  margin-right: 3px;
+  opacity: 0.6;
+  }
+  
+  .btnRedSyori1 {
+  background-color: rgb(214, 28, 28) ;
+  border-color: indianred ;
+  margin-right: 3px;
+  opacity: 0.6;
+  }
+  
+  .btnBlackSyori1 {
+  background-color: rgb(0, 0, 0);
+  border-color: indianred;
+  margin-right: 3px;
+  opacity: 0.6;
+  }
+  
+  .isDelDataShowHint {
+  position: absolute;
+  left: 76px;
+  top: 4px;
+  }
+

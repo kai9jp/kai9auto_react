@@ -1,0 +1,76 @@
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd; /* 1ピクセルの枠を表示 */
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd; /* タイトルと明細の間に線を表示 */
+    padding-bottom: 8px;
+  }
+  
+  .addIcon {
+    font-size: 20px;
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .row {
+    transition: background-color 0.3s;
+    cursor: pointer;
+    position: relative; /* 各行のアイコンを配置するために必要 */
+    border-bottom: 1px solid #ddd; /* 各行の間の線 */
+  }
+  
+  .row:hover {
+    background-color: #e8f4ff; /* 行のホバー時の色 */
+  }
+  
+  .row td {
+    color: #555;
+    padding: 8px 12px;
+  }
+  
+  .row:last-child {
+    border-bottom: none; /* 最後の行の線を消す */
+  }
+  
+  .iconContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .icon {
+    font-size: 18px;
+    color: #666;
+    cursor: pointer;
+  }
+  
+  .icon:hover {
+    color: #007bff; /* ホバー時のアイコンの色 */
+  }
+

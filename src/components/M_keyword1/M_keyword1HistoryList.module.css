@@ -1,0 +1,20 @@
+.portlet400 {
+  max-height: 400px;
+}
+
+.tableResponsive {
+  height: 300px; /* テーブルの高さを固定 */
+  overflow-y: auto; /* テーブルが高さを超えた場合にスクロールバーを表示 */
+}
+
+.tableResponsive th,
+.tableResponsive td{
+	white-space: nowrap;
+}
+
+.historyPosition {
+  position: absolute;
+  left: 110px;
+  top: 14px;
+  opacity: 0.7;
+}
